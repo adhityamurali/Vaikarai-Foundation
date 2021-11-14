@@ -3545,34 +3545,34 @@ hr {
 
 /* line 2, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
 .slider-height {
-  height: 920px;
+  height: 800px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 2, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 700px;
+    height: 800px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 2, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 650px;
+    height: 800px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 2, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 600px;
+    height: 800px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 2, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 500px;
+    height: 800px;
   }
 }
 
@@ -3622,6 +3622,8 @@ hr {
   margin-bottom: 29px;
 }
 
+
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 39, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
@@ -3632,18 +3634,6 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 39, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
-  .slider-area .hero__caption h1 {
-    background:url(../img/hero/h1_hero3.png);
-    background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-    font-size: 50px;
-    line-height: 1.2;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 39, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   .slider-area{
     background: url(../img/hero/h1_hero3.png);
     background-repeat: no-repeat;
@@ -3652,6 +3642,23 @@ hr {
     font-size: 50px;
     line-height: 1.2;
     
+  } 
+  .hero__caption h1 {
+    font-size: 35px;
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 39, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
+  .slider-area{
+
+    background: url(../img/hero/h1_hero3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-size: 50px;
+    line-height: 1.2;
   } 
   .hero__caption h1 {
     font-size: 35px;
