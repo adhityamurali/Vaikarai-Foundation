@@ -24,8 +24,8 @@
 	<link rel="stylesheet" href="assets/css/slick.css">
 	<link rel="stylesheet" href="assets/css/nice-select.css">
 	<link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 
     <link rel="stylesheet" href="assets/css/aos.css">
     
@@ -224,6 +224,28 @@ img {vertical-align: middle;}
         </div>
         <!-- Header End -->
     </header>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .parent {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .parent img {
+        vertical-align: middle;
+      }
+      .parent .text {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);/* Fallback color */
+        background: rgba(0, 0, 0, 0.5);/* Black background with opacity */
+        color: #ffffff;
+        width: 100%;
+        padding: 20px;
+      }
+    </style>
     <!-- header end -->
     <main style="height: 100%;">
     <!-- slider Area Start-->
@@ -257,21 +279,22 @@ img {vertical-align: middle;}
               <span class="dot" onclick="currentSlide(3)"></span> 
             </div>
     </div> -->
-    <div class="slider-area" style="height: 50%;">
+    
+    <div class="slider-area" style="height: 50%;  ">
        
         <div class="slider-active">
-            <div class="single-slider slider-height d-flex align-items-center">
-                <div class="container">
+            <div class="single-slider slider-height d-flex align-items-center" style="  background: rgb(0, 0, 0);    background: rgba(0, 0, 0, 0.5);">
+                <div class="container" >
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
-                            <div class="hero__caption">
-                                <h1 data-animation="fadeInUp" data-delay=".6s">Our Helping to<br> the world.</h1>
-                                <P data-animation="fadeInUp" data-delay=".8s" >Onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut bore et dolore magnt, sed do eiusmod.</P>
+                            <div class="hero__caption transbox">
+                                <h1 data-animation="fadeInUp" data-delay=".6s" style="color: aliceblue;">Our Helping to<br> the world.</h1>
+                                <P data-animation="fadeInUp" data-delay=".8s" style="color: aliceblue;">Onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut bore et dolore magnt, sed do eiusmod.</P>
                                 <div class="hero__btn">
                                     <a class="btn hero-btn mb-10" data-toggle="modal" data-target="#myModal" data-animation="fadeInLeft" data-delay=".8s">Donate</a>
                                     <a  class="cal-btn ml-15" data-animation="fadeInRight" data-delay="1.0s">
                                         <i class="flaticon-null"></i>
-                                        <p>+12 1325 41</p>
+                                        <p style="color: aliceblue;">+12 1325 41</p>
                                     </a>
                                 </div>
                             </div>
@@ -508,7 +531,7 @@ img {vertical-align: middle;}
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-3 col-md-4">
-                        <a href="#" class="btn white-btn f-right sm-left">Become A Volunteer</a>
+                        <a href="#" class="btn white-btn f-right sm-left" data-toggle="modal" data-target="#volunteer">Become A Volunteer</a>
                     </div>
                 </div>
             </div>
@@ -520,18 +543,43 @@ img {vertical-align: middle;}
 <!-- Count Down End -->
    
 
-<div class="modal fade" id="myModal">
-    <div class="modal-dialog modal-dialog-centered"  style="height: 60%;">
-      <div class="modal-content" style="height: 60%;width: 100%;">
+<div class="modal fade" id="volunteer">
+    <div class="modal-dialog modal-dialog-centered"  >
+      <div class="modal-content" style="height: 50%;width: 70%;left: 15%;">
       
         <!-- Modal Header -->
         <div class="modal-header">
-          <span class="modal-title">Scan and Pay</span>
+          <span class="modal-title text-success text-center" style="font-size: bold;font-size: 20px;">Become Volunteer</span>
           <button type="button" class="close close btn-sm fa fa-close text-success text-center" data-dismiss="modal"></button>
         </div>
         
         <!-- Modal body -->
-        <div class="modal-body" style="height: 80%;width: 100%;text-align: center;" >
+        <div class="modal-body" style="height: 80%;width: 100%;text-align: center;padding: 10%;" >
+
+            <img class='barcode' src="./assets/img/logo/whatsapp.png" style="height: 100%;width: 100%;" alt="" title="HELLO"  />   
+        </div>
+        
+        <!-- Modal footer -->
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div> -->
+        
+      </div>
+    </div>
+  </div>
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered"  >
+      <div class="modal-content" style="height: 50%;width: 70%;left: 15%;">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <span class="modal-title text-success text-center" style="font-size: bold;font-size: 20px;">Scan & Donate</span>
+          <button type="button" class="close close btn-sm fa fa-close text-success text-center" data-dismiss="modal"></button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" style="height: 80%;width: 100%;text-align: center;padding: 10%;" >
 
             <img class='barcode' src="./assets/img/logo/vaikarai.png" style="height: 100%;width: 100%;" alt="" title="HELLO"  />   
         </div>
@@ -662,8 +710,8 @@ img {vertical-align: middle;}
     <script src="./assets/js/popper.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <!-- Jquery Mobile Menu -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/brands.min.js"></script> 
+    <script src="./assets/js/all.min.js"></script> 
+    <script src="./assets/js/brands.min.js"></script> 
     <script src="./assets/js/jquery.slicknav.min.js"></script>
 
     <!-- Jquery Slick , Owl-Carousel Plugins -->
