@@ -4693,6 +4693,7 @@ hr {
   .team-area {
     padding-bottom: 150px;
     padding-top: 150px;
+    margin-top: -10%;
   }
 }
 
@@ -4701,6 +4702,7 @@ hr {
   .team-area {
     padding-bottom: 100px;
     padding-top: 100px;
+    margin-top: -10%;
   }
 }
 
@@ -4709,6 +4711,7 @@ hr {
   .team-area {
     padding-bottom: 70px;
     padding-top: 70px;
+    margin-top: -15%;
   }
 }
 
@@ -4717,6 +4720,7 @@ hr {
   .team-area {
     padding-bottom: 70px;
     padding-top: 70px;
+    margin-top: -20%;
   }
 }
 
@@ -4757,6 +4761,8 @@ hr {
   .team-area .single-team .team-caption h3 a {
     font-size: 18px;
   }
+
+  
 }
 
 /* line 42, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_team.scss */
