@@ -3545,13 +3545,13 @@ hr {
 
 /* line 2, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
 .slider-height {
-  height: 800px;
+  height: 600px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 2, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 800px;
+    height: 600px;
   }
 }
 
@@ -3572,7 +3572,7 @@ hr {
 @media (max-width: 575px) {
   /* line 2, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 800px;
+    height: 750px;
   }
 }
 
@@ -3647,6 +3647,10 @@ hr {
     font-size: 35px;
     line-height: 1.2;
   }
+
+  .single-slider { background: rgb(0, 0, 0);    background: rgba(0, 0, 0, 0.5); }
+  .textmobcolor{ color: aliceblue !important; }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3664,6 +3668,9 @@ hr {
     font-size: 35px;
     line-height: 1.2;
   }
+  .single-slider { background: rgb(0, 0, 0);    background: rgba(0, 0, 0, 0.5); }
+  .textmobcolor{ color: aliceblue !important; ; }
+
 }
 
 @media (max-width: 575px) {
@@ -3680,6 +3687,9 @@ hr {
     font-size: 35px;
     line-height: 1.2;
   }
+  .single-slider { background: rgb(0, 0, 0);    background: rgba(0, 0, 0, 0.5); }
+
+  .textmobcolor{ color: aliceblue !important; ; }
 }
 
 /* line 64, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
